@@ -47,7 +47,7 @@ mongoose.connect(config.host, config.db, config.port,
 /*
  * Express configuration.
  */
-app.set('port', config.port);
+app.set('port', process.env.PORT || 3001);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
