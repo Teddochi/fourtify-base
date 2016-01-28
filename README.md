@@ -16,12 +16,14 @@ Use https://cse112bluejay.herokuapp.com/ to access last years version of the app
 6. `bower install`
 7. Make a file called ".env" -- `vim .env`
 8. Paste the following content:
-    ```
-    EXPRESS_SECRET=FOURTIFY
-    NODE_ENV=development
-    PORT=3001
-    NODE_TLS_REJECT_UNAUTHORIZED=0
-    ```
+```
+
+EXPRESS_SECRET=FOURTIFY
+NODE_ENV=development
+PORT=3001
+NODE_TLS_REJECT_UNAUTHORIZED=0
+
+```
 9. `gulp build:dev`
 10. `nf start web`
 
